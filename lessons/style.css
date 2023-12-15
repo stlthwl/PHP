@@ -24,7 +24,14 @@ header {
     justify-content: center;
     height: 56px;
     vertical-align: middle;
-    position: relative;
+    left: 0;
+    bottom: 0;
+    position: sticky;
+}
+
+.main-container {
+    overflow: auto;
+    height: 100%;
 }
 
 .center-transform {
